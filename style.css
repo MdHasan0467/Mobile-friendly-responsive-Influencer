@@ -497,7 +497,7 @@ footer h1{
 }
 
 .feature-text .join-btn{
-  margin-left: 40%;
+  margin-left: 20%;
   
 }
 
@@ -506,6 +506,16 @@ footer h1{
   margin-top: 10%;
   width: 100%;
 }
+
+
+
+
+footer{
+  background: #000;
+  width: 114%;
+}
+
+
 
 
 
