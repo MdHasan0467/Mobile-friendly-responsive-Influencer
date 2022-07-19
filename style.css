@@ -18,7 +18,7 @@ body{
   margin: 0 auto;
   background: var(--white-color);
 }
-.fa-bars{
+.menu-bar{
   display: none;
 }
 .nav_bar{
@@ -364,19 +364,33 @@ footer h1{
 
 @media screen and (max-width:576px){
   body{
-    width: 100%;
+    width: 100vw;
   }
+
+    nav {
+      display: none;
+    }
+
+    .menu-bar{
+      display: flex;
+      font-size: 30px;
+      margin-top: 20px;
+
+    }
+
   .nav_bar{
     width: 100%;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
   }
  .nav_bar .nav-tittle{
   font-size: 40px;
   margin-left: 10%;
  }
-.nav_bar nav ul{
-  display: none;
+
+ .fa-cart-shopping{
+  color: #E02C6D;
+  font-size: 30px;
  }
  
 
@@ -384,18 +398,8 @@ footer h1{
   display: none;
 }
 
-.nav-icon .fa-cart-shopping{
-  font-size: 30px;
-  /* margin-top: 0; */
-  color: var(--primery-color);
-}
 
-.menu-icon{
-  margin-top: 20px;
-  display: flex;
-  font-size: 30px;
-  color: var(--primery-color);
-}
+
 .header-section{
   flex-direction: column-reverse;
 }
@@ -427,7 +431,7 @@ footer h1{
 .online-shop .shop-logo {
   width: 100%;
   margin-top: 50px;
-  margin-left: 80px;
+  margin-left: 50px;
   grid-template-columns: repeat(3, 1fr);
 }
 
